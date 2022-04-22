@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jeopardy</title>
+    <!-- put bootstrap link here -->
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="head">
+                <h1>Jeopardy</h1>
+                <h3 id="grand-total"></h3>
+                <h3 id="score"></h3>
+            </div>
+        </header>
+
+
+
+        <main>
+            <div id="grid">
+                <div id="ones">
+                    <div class="100 titles" id="a1">$100</div>
+                    <div class="100 titles" id="a2">$100</div>
+                    <div class="100 titles" id="a3">$100</div>
+                    <div class="100 titles" id="a4">$100</div>
+                    <div class="100 titles" id="a5">$100</div>
+                </div>
+
+                <div id="twos">
+                    <div class="200 titles" id="b1">$200</div>
+                    <div class="200 titles" id="b2">$200</div>
+                    <div class="200 titles" id="b3">$200</div>
+                    <div class="200 titles" id="b4">$200</div>
+                    <div class="200 titles" id="b5">$200</div>
+                </div>
+
+                <div id="fours">
+                    <div class="400 titles" id="c1">$400</div>
+                    <div class="400 titles" id="c2">$400</div>
+                    <div class="400 titles" id="c3">$400</div>
+                    <div class="400 titles" id="c4">$400</div>
+                    <div class="400 titles" id="c5">$400</div>
+                </div>
+
+                <div id="sixes">
+                    <div class="600 titles" id="d1">$600</div>
+                    <div class="600 titles" id="d2">$600</div>
+                    <div class="600 titles" id="d3">$600</div>
+                    <div class="600 titles" id="d4">$600</div>
+                    <div class="600 titles" id="d5">$600</div>
+                </div>
+
+                <div id="eights">
+                    <div class="800 titles" id="e1">$800</div>
+                    <div class="800 titles" id='e2'>$800</div>
+                    <div class="800 titles" id="e3">$800</div>
+                    <div class="800 titles" id="e4">$800</div>
+                    <div class="800 titles" id="e5">$800</div>
+                </div>
+
+                <div id="question">
+                    Question: 
+                </div>
+    
+        </main>
+
+        <footer>
+            <form id="form">
+                <div id="input">
+                    <label class="bottom">Your Answer:</label>
+                    <input placeholder="Type Answer Here" class="bottom" type="text" id="answer" autocomplete="off">
+                </div>
+                <div id="submitButton">
+                    <input id="submit" type="submit" value="submit"/>
+                </div>
+            </form>
+        </footer>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

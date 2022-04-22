@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: rgb(204, 209, 209);
+}
+
+.container{
+    width: 1200px;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(146, 116, 18);
+    text-shadow: 3px 3px rgb(12, 12, 12);
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#head{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+#ones,
+#twos,
+#fours,
+#sixes,
+#eights{
+    display: flex;
+    justify-content: center;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border: 5px solid darksalmon;
+    color: black;
+    background-color: darkolivegreen;
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+
+.titles:hover{
+    background-color: mediumseagreen;
+    border: 5px solid darkslategray;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: Impact;
+    color: rgb(146, 116, 18);
+    font-size: x-large;
+    font-weight: 500;
+    text-shadow: 2px 2px rgb(15, 15, 15);
+}
+
+#form{
+    display: flex;
+}
+
+.bottom{
+    margin-right: 20px;
+}
+
+#answer{
+    width: 200px;
+    border: 2px solid rgb(11, 11, 12);
+}
+
+#answer:focus{
+    background-color: rgb(167, 88, 170);
+    color: white;
+    border: 3px double rgba(15, 14, 14, 0.911);
+
+}
+
+#question{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(146, 116, 18);
+    width: 50px;
+    color: black;
+    border: 2px solid black;
+    font-weight: 500;
+    border-radius: 5px;
+}
